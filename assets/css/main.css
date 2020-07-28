@@ -1630,6 +1630,8 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 300px;
+			object-fit: scale-down;
 		}
 
 		.image.fit {
@@ -2180,7 +2182,7 @@ input, select, textarea {
   }
   
   .timeline li {
-	padding: 1em 0;
+	padding: 0 0;
   }
   
   .timeline li:after {
@@ -2312,6 +2314,7 @@ input, select, textarea {
 	font-style: normal;
 	line-height: 1.5em;
   }
+
   
   .direction-r .desc {
 	margin: 1em 0 0 0.75em;

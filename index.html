@@ -11,8 +11,8 @@
         <nav id="nav">
             <ul class="container">
                 <li><a href="#top">Home</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <!-- <li><a href="#work">Work</a></li> -->
+                <li><a href="#portfolio">Work</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -39,6 +39,7 @@
         </article>
 
     <!-- Work -->
+    <!--
         <article id="work" class="wrapper style2">
             <div class="container">
                 <header>
@@ -74,37 +75,40 @@
                 </footer>
             </div>
         </article>
+    -->
+        
 
     <!-- Portfolio -->
         <article id="portfolio" class="wrapper style3">
             <div class="container">
                 <header>
-                    <h2>Here’s some stuff I made recently.</h2>
-                    <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+                    <h2>Work done in CMU Cheng Lab</h2>
+                    <p>Analyses done by our lab</p>
                 </header>
                 <div class="row">
                     <div class="col-4 col-6-medium col-12-small">
                         <article class="box style2">
-                            <a href="#" class="image featured"><img src="images/pic01.jpg" alt=""></a>
-                            <h3><a href="#">Magna feugiat</a></h3>
-                            <p>Ornare nulla proin odio consequat.</p>
+                            <a href="#" class="image featured"><img src="images/LUAD_EGFR_OS_survival.JPG" alt=""></a>
+                            <h3><a href="#">Survival Analysis with Kaplan Meier plot</a></h3>
+                            <p>with given cancer type and gene, our lab can produce KM plot using TCGA data or your own .</p>
                         </article>
                     </div>
                     <div class="col-4 col-6-medium col-12-small">
                         <article class="box style2">
-                            <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-                            <h3><a href="#">Veroeros primis</a></h3>
-                            <p>Ornare nulla proin odio consequat.</p>
+                            <a href="#" class="image featured"><img src="images/heatmap.jpg" alt=""></a>
+                            <h3><a href="#">Heatmap Visualization</a></h3>
+                            <p>to observe general pattern in samples, our lab can produce heatmap and other forms of visualization.</p>
                         </article>
                     </div>
                     <div class="col-4 col-6-medium col-12-small">
                         <article class="box style2">
-                            <a href="#" class="image featured"><img src="images/pic03.jpg" alt=""></a>
-                            <h3><a href="#">Lorem ipsum</a></h3>
-                            <p>Ornare nulla proin odio consequat.</p>
+                            <a href="#" class="image featured"><img src="images/fun_ann.jpg" alt=""></a>
+                            <h3><a href="#">Gene Functional Annotation</a></h3>
+                            <p>to examine if a group of genes involves in particular biological pathways, our lab can produce barcharts with significant pathways.</p>
                         </article>
                     </div>
-                    <div class="col-4 col-6-medium col-12-small">
+                    <!--
+                                          <div class="col-4 col-6-medium col-12-small">
                         <article class="box style2">
                             <a href="#" class="image featured"><img src="images/pic04.jpg" alt=""></a>
                             <h3><a href="#">Tempus dolore</a></h3>
@@ -124,10 +128,12 @@
                             <h3><a href="#">Sed amet ornare</a></h3>
                             <p>Ornare nulla proin odio consequat.</p>
                         </article>
-                    </div>
+                    </div>  
+                    -->
+
                 </div>
                 <footer>
-                    <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+                    <p>Do you have a question? If so, </p>
                     <a href="#contact" class="button large scrolly">Get in touch with me</a>
                 </footer>
             </div>
@@ -136,8 +142,8 @@
 <!-- The Timeline -->
 <div id="experience" style="padding: 8em 0;">
     <header style="text-align: center;">
-        <h2>Here’s some stuff I made recently.</h2>
-        <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+        <h2>Experience</h2>
+        <q cite="https://learninginbloom.com/learning-quotes/" style="margin:1em;"><i>“You don't have to be great to start, but you have to start to be great.” –Zig Ziglar</i></q>
     </header>
 <ul class="timeline">
 
@@ -148,7 +154,12 @@
                 <span class="flag">China Medical University</span>
                 <span class="time-wrapper"><span class="time">2019 - current</span></span>
 			</div>
-			<div class="desc"><b>Reseach Assitant</b><br><i>-mRNA seq analysis to annotate gene function</i></div>
+            <div class="desc"><b>Reseach Assitant</b><br>
+                <ul>
+                    <li><i>tidy data with R programming language</i></li>
+                    <li><i>analyze mRNA/miRNA sequencing expression data to annotate gene function</i></li>
+                </ul>
+            </div>
 		</div>
 	</li>
   
@@ -159,7 +170,12 @@
                 <span class="flag">MYDAY CO., LTD.</span>
                 <span class="time-wrapper"><span class="time">2017 - 2019</span></span>
 			</div>
-			<div class="desc"><b>English Customer Service</b><br><i>-Ensure effective two-way communication between customers and sellers</i></div>
+            <div class="desc"><b>English Customer Service</b><br>
+            <ul style="text-align: left;">
+                <li><i>Ensure effective two-way communication between customers and sellers</i></li>
+                <li><i>Keep track of package shipments and provide after-sales services such as filing claims for problematic products</i></li>
+            </ul>
+        </div>
 		</div>
 	</li>
 
@@ -170,7 +186,7 @@
 				<span class="flag">Pennsylvania State University</span>
 				<span class="time-wrapper"><span class="time">2013 - 2017</span></span>
 			</div>
-			<div class="desc">B.S. in Biostatistics</div>
+			<div class="desc"><i>B.S. degree in Biostatistics</i></div>
 		</div>
     </li>
   
