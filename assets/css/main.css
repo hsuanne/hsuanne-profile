@@ -2182,7 +2182,7 @@ input, select, textarea {
   }
   
   .timeline li {
-	padding: 0 0;
+	padding: 0;
   }
   
   .timeline li:after {
